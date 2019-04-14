@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more">
+
+        <menu>
+
+        <item android:id="@+id/mn_national"
+            android:title="National Geographic (default)"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/national_geographic"/>
+
+         <item android:id="@+id/mn_tech"
+            android:title="TechCrunch"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/techcrunch"/>
+
+        <item android:id="@+id/mn_mtv"
+            app:showAsAction="ifRoom"
+            android:title="MTV"
+            android:icon="@drawable/mtv"/>
+
+        <item android:id="@+id/mn_google"
+            app:showAsAction="ifRoom"
+            android:title="New Scientist"
+            android:icon="@drawable/new_scientist"/>
+
+        </menu>
+    </item>
+</menu>
